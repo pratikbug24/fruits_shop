@@ -90,3 +90,34 @@ form.addEventListener('submit', function(event) {
           
     });
 });
+
+// Function to handle responsive layout adjustments
+function handleResponsiveLayout() {
+    // Check if the viewport width is less than or equal to 600 pixels (considered as mobile devices)
+    if (window.innerWidth <= 600) {
+      // Modify the header styles
+      document.querySelector('header').style.padding = '10px';
+      document.querySelector('header h1').style.fontSize = '1.5em';
+  
+      // Modify the main content styles
+      document.querySelector('main').style.padding = '10px';
+  
+      // Modify the footer styles
+      document.querySelector('footer').style.padding = '5px';
+    } else {
+      // Reset styles to default for larger screens
+      document.querySelector('header').style.padding = '20px';
+      document.querySelector('header h1').style.fontSize = '2em';
+  
+      document.querySelector('main').style.padding = '20px';
+  
+      document.querySelector('footer').style.padding = '10px';
+    }
+  }
+  
+  // Call the function initially
+  handleResponsiveLayout();
+  
+  // Add event listener for window resize to handle changes dynamically
+  window.addEventListener('resize', handleResponsiveLayout);
+  
