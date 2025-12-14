@@ -47,7 +47,7 @@ const products = [
         category: "fruits",
         price: 80,
         originalPrice: 100,
-        image: "apple.png", // Using apple image as placeholder
+        image: "images/Oranges.jpeg", // Using apple image as placeholder
         description: "Sweet and juicy oranges packed with vitamin C and natural sugars.",
         badge: "Vitamin C",
         inStock: true,
@@ -60,7 +60,7 @@ const products = [
         category: "fruits",
         price: 60,
         originalPrice: 70,
-        image: "apple.png", // Using apple image as placeholder
+        image: "images/Bananas.jpeg", // Using apple image as placeholder
         description: "Ripe bananas rich in potassium and natural energy. Great for smoothies.",
         badge: "Energy",
         inStock: true,
@@ -73,7 +73,7 @@ const products = [
         category: "vegetables",
         price: 30,
         originalPrice: 40,
-        image: "cucumber.png", // Using cucumber image as placeholder
+        image: "https://images.unsplash.com/photo-1576045057995-568f588f82fb", // Using cucumber image as placeholder
         description: "Fresh spinach leaves packed with iron and vitamins. Perfect for salads.",
         badge: "Iron Rich",
         inStock: true,
